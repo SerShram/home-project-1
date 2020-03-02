@@ -1,2 +1,27 @@
 @import url("nullstyle.css");
 
+.wrap{
+	background-color: #3e4a5d;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #3a4352;
+	max-width: 1109px;
+	margin: auto;
+}
+.header h1{
+	font-family: Oswald;
+	font-variant: petite-caps;
+	color: #ffffff;
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+.header p{
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+.content{
+	background-color: #f8f8f8;
+	border-radius: 5px;
+
+}
