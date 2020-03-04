@@ -33,6 +33,7 @@
 	align-items: center;
 	margin: 16px 0;
 }
+
 .title_icon{
 	width: 74px;
 	height: 74px;
@@ -93,6 +94,16 @@
 	padding: 10px 0;
 	border-radius: 4px;
 }
+.block_social_network{
+	height: 164px;
+	width: 163px;
+	background-image: url(../image/Badge.png);
+	margin: auto;
+	border: 1px solid red;
+}
+.social_network{
+	border: 1px solid green;
+}
 .footer{
 	color:  #f8f8f8;
 	text-align: center;
@@ -100,4 +111,107 @@
 }
 .footer span{
 	color:  #d23939;
+}
+
+/*  Всплывающиеся иконки слева! */
+.parent{
+	position: relative;
+}
+.block_title_text:before{
+	content: url(../image/icon-text.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_title_text:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_foto:before{
+	content: url(../image/icon-photo.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_foto:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_quote:before{
+	content: url(../image/icon-quote.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_quote:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_link:before{
+	content: url(../image/icon-link.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_link:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_chat:before{
+	content: url(../image/icon-chat.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_chat:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_audio:before{
+	content: url(../image/icon-audio.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_audio:hover:before{
+	left: -150px;
+	width: 117px;
+}
+.block_video:before{
+	content: url(../image/icon-video.png);
+	position: absolute;
+	top: 18px;
+	left: -134px;
+	display: block;
+	height: 74px;
+	width: 101px;
+	overflow: hidden;
+}
+.block_video:hover:before{
+	left: -150px;
+	width: 117px;
 }
