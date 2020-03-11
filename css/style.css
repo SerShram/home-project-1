@@ -11,7 +11,8 @@
 }
 .header{
 	color: #ffffff;
-	margin: 58px 0 49px;
+	height: 196px;
+	padding-top: 58px;
 	letter-spacing: 3px;
 }
 .header h1{
@@ -70,7 +71,7 @@
 	position: relative;
 	top: -30px;
 }
-.avatar{
+.side_bar__avatar{
 	height: 147px;
 	width: 147px;
 	background-image: url(../image/bg.png);
@@ -80,12 +81,12 @@
 .side_bar p{
 	margin: 12px 0;
 }
-.search{
+.side_bar__search{
 	border: 1px solid #86a9e3;
 	border-radius: 4px;
 	padding: 10px 10px 10px 10px;
 }
-.follow{
+.side_bar__button_follow{
 	font-size: 26px;
 	font-weight: 700;
 	color: #ffffff;
@@ -94,16 +95,29 @@
 	padding: 10px 0;
 	border-radius: 4px;
 }
-.block_social_network{
-	height: 164px;
+.block_icons{
+	height: 163px;
 	width: 163px;
 	background-image: url(../image/Badge.png);
 	margin: auto;
-	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 17px 0 17px 0;
 }
-.social_network{
-	border: 1px solid green;
+.block_icons__row{
+	display: flex;
+	justify-content: space-between;
+	width: 51%;
 }
+.block_icons__facebook {}
+.block_icons__twitter {
+	align-self: flex-end;
+	padding-right: 6px;
+}
+.block_icons__rss {}
+.block_icons__wifi {}
 .footer{
 	color:  #f8f8f8;
 	text-align: center;
